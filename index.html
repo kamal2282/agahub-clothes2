@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee House</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f5efe6; color:#3b2f2f; }
+    header { background:#3b2f2f; color:#fff; padding:20px; }
+    nav { display:flex; justify-content:space-between; align-items:center; }
+    nav a { color:#fff; margin-left:15px; text-decoration:none; font-weight:bold; }
+    .hero { padding:90px 20px; text-align:center; background:#ede0d4; }
+    .hero h1 { font-size:44px; margin-bottom:10px; }
+    .hero p { font-size:18px; color:#5a4633; }
+    .btn { display:inline-block; margin-top:25px; padding:14px 34px; background:#3b2f2f; color:#fff; text-decoration:none; border-radius:6px; }
+    .products { padding:60px 20px; max-width:1100px; margin:auto; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
+    .card { background:#fff; padding:20px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.08); text-align:center; }
+    .card img { max-width:100%; border-radius:8px; }
+    footer { background:#3b2f2f; color:#fff; text-align:center; padding:20px; margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h2>☕ Coffee House</h2>
+      <div>
+        <a href="#">Ana səhifə</a>
+        <a href="#menu">Menyu</a>
+        <a href="#contact">Əlaqə</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hər Fincanda Zövq</h1>
+    <p>Təzə qovrulmuş qəhvə, isti mühit və rahat anlar</p>
+    <a class="btn" href="#menu">Menyuya bax</a>
+  </section>
+
+  <section id="menu" class="products">
+    <h2>Menyumuz</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x350" alt="Espresso" />
+        <h3>Espresso</h3>
+        <p>Güclü və aromatik klassik dad.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x350" alt="Cappuccino" />
+        <h3>Cappuccino</h3>
+        <p>Süd köpüyü ilə balanslı ləzzət.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x350" alt="Latte" />
+        <h3>Latte</h3>
+        <p>Yumşaq içimli, günün istənilən vaxtı üçün.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>© 2026 Coffee House | Instagram: @coffeehouse</p>
+  </footer>
+</body>
+</html>
